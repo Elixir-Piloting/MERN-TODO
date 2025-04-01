@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@layer{
+    body{
+        @apply bg-white;
+    }
+}
+
+.form-group{
+    @apply flex flex-col ;
+}
+.form-group label{
+    @apply flex self-start ;
+}
+.form-group input, textarea{
+    @apply flex border-2 border-gray-200 rounded-md p-1 focus:border-blue-400 outline-none;
+}
